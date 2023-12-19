@@ -1,4 +1,4 @@
-package com.example.streamlibrary;
+package com.example.example10;
 
 import java.util.Scanner;
 
