@@ -19,6 +19,6 @@ public class SumAndReduce {
     }
 
     public static int sum2(List<Integer>nums){
-       return nums.stream().reduce(Integer::sum).orElse(0);
+       return nums.stream().reduce((i,sum)->i + sum).orElse(0);
     }
 }

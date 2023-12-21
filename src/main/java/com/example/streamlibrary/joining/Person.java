@@ -1,5 +1,4 @@
-package com.example.streamlibrary.partition;
-
+package com.example.streamlibrary.joining;
 public class Person {
     public  String name;
     public int age;

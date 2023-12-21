@@ -5,6 +5,11 @@ public class Person {
     public int age;
     public String nationality;
 
+    public Person(String name, int age,String nationality) {
+        this.name = name;
+        this.age = age;
+        this.nationality=nationality;
+    }
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
@@ -20,5 +25,14 @@ public class Person {
 
     public String getNationality() {
         return nationality;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", nationality='" + nationality + '\'' +
+                '}';
     }
 }
